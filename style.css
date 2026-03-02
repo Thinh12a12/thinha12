@@ -5,12 +5,12 @@
 }
 
 .header {
-  flex: 1;
+  flex: 15%;
   background-color: lightgray;
 }
 
 .menu {
-  flex: 1;
+  flex: 5%;
   background-color: darkgray;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .footer {
-  flex: 1;
+  flex: 70%;
   background-color: lightgray;
 }
 h1{
