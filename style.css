@@ -15,12 +15,12 @@
 }
 
 .content {
-  flex: 100%;
+  flex: 70%;
   background-color: white;
 }
 
 .footer {
-  flex: 70%;
+  flex: 10%;
   background-color: lightgray;
 }
 h1{
