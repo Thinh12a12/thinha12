@@ -1,16 +1,16 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 300vh;
 }
 
 .header {
-  flex: 15%;
+  flex: 30%;
   background-color: lightgray;
 }
 
 .menu {
-  flex: 5%;
+  flex: 30%;
   background-color: darkgray;
 }
 
