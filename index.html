@@ -1,10 +1,75 @@
 <html class="fullsize">
   <head>
+    <meta charset="UTF-8"> <title>Website Trường THPT Ngô Quyền</title>
     <link href="style.css" rel="stylesheet">
+    
+    <style>
+      /* --- Phần CSS được thêm vào --- */
+      
+      /* Reset cơ bản để ảnh không bị dính lề */
+      body, html {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 100%;
+        /* Bạn có thể đặt max-width nếu muốn container không quá rộng */
+      }
+
+      .header {
+        /* 1. Đường dẫn tới file ảnh của bạn */
+        background-image: url('image/hinh.png');
+        
+        /* 2. Thiết lập để ảnh phủ kín và đẹp */
+        background-size: cover;      /* Ảnh sẽ thu phóng để phủ kín toàn bộ div, không bị kéo giãn */
+        background-position: center; /* Ảnh được căn giữa */
+        background-repeat: no-repeat; /* Không lặp lại ảnh */
+        
+        /* 3. Chiều cao của banner */
+        /* Đây là chiều cao KHUYÊN DÙNG cho ảnh banner bạn cung cấp */
+        /* Bạn có thể điều chỉnh con số 250px này (ví dụ: 200px đến 300px) */
+        height: 250px; 
+        
+        /* Các thuộc tính khác nếu cần */
+        width: 100%;
+        border-bottom: 2px solid #5D4391; /* Thêm đường kẻ dưới màu tím giống logo */
+      }
+      
+      /* CSS cơ bản cho Menu (ví dụ) */
+      .menu {
+        background-color: #f8f9fa;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+      }
+      .menu a {
+        text-decoration: none;
+        color: #333;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+      .menu a:hover {
+        color: #B22222; /* Màu đỏ của tên trường khi di chuột vào */
+      }
+      
+      /* CSS cơ bản cho Content (ví dụ) */
+      .content {
+        padding: 20px;
+      }
+      .content iframe {
+        width: 100%;
+        height: 500px; /* Chiều cao mặc định cho iframe */
+        border: 1px solid #ccc;
+      }
+      
+      /* --- Hết phần CSS thêm vào --- */
+    </style>
   </head>
   <body>
    <div class="container">
      <div class="header"> </div>
+     
      <div class="menu"> 
        <a href="content/gioithieu.html" target="noidung" > Giới thiệu </a>
        <a href="content/tkb.html" target="noidung"> thời khóa biểu </a>
